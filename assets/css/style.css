@@ -1,3 +1,5 @@
+/* Reorganized file to match html file's semantic structure */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -55,12 +57,14 @@ a {
     background-position: center;
 }
 
+/* Condensed several declarations to this */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Condensed several declarations to this */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -72,6 +76,7 @@ a {
     color: #ffffff;
 }
 
+/* Condensed several declarations to this */
 .content img {
     max-height: 200px;
 }
@@ -86,6 +91,7 @@ a {
     margin-left: 25px;
 }
 
+/* Condensed several declarations to this */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -95,6 +101,7 @@ p {
     font-size: 16px;
 }
 
+/* Consolidated two .benefits declarations into one */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,6 +115,7 @@ p {
     color: #ffffff;
 }
 
+/* Added to enlarge/respace bottom right box to better match the bottom left boxes */
 .benefits p {
     padding-bottom: 10px;
 }
@@ -117,22 +125,26 @@ p {
     text-align: center;
 }
 
+/* Changed margin from 10 to 5 to enlarge/respace box to better match the bottom left boxes */
 .benefits img {
     display: block;
     margin: 5px auto;
     max-width: 150px;
 }
 
+/* clunky enlarging of the bottom right box */
 .benefit-brand h3 {
     padding-top: 30px;
 }
 
+/* clunky enlarging of the bottom right box */
 .benefit-cost h3 {
-    padding-top: 30px;
+    padding-top: 34px;
 }
 
+/* clunky leveling of the bottommost boxes */
 .benefit-cost p {
-    padding-bottom: 7px;
+    padding-bottom: 3px;
 }
 
 .footer {
