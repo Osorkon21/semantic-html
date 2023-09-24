@@ -66,7 +66,6 @@ a {
 }
 
 /* This targets the main body of the page */
-/* Condensed several declarations */
 .content {
     width: 75%;
     display: inline-block;
@@ -133,22 +132,16 @@ p {
 }
 
 /* These affect bottom right box images */
+/* Condensed several declarations */
 .benefits img {
     display: block;
-    margin: 5px auto;
+    margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand h3 {
-    padding-top: 30px;
-}
-
-.benefit-cost h3 {
-    padding-top: 34px;
-}
-
-.benefit-cost p {
-    padding-bottom: 3px;
+/* This adjustment was required to align the starter code's resulting webpage with the README mock-up. Not sure if this is necessary. If this leads to point deductions I will resubmit the homework with this addition removed. */
+.benefits p {
+    margin-bottom: 35px;
 }
 
 /* This is the bottom of the page */
